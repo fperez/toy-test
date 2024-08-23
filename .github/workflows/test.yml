@@ -17,11 +17,9 @@ jobs:
 
     - name: Install mytoy
       run: |
-        cd mytoy
         pip install --user .
 
     - name: Run tests
       run: |
         cd mytoy
         pytest
-        
