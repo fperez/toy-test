@@ -17,6 +17,7 @@ jobs:
 
     - name: Install mytoy
       run: |
+        pip install pytest
         pip install --user .
 
     - name: Run tests
